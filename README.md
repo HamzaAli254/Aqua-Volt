@@ -53,5 +53,5 @@ GitHub Repository: https://github.com/HamzaAli254/Aqua-Volt
 
 This project was created for the #beest program to showcase our capstone project and demonstrate our HTML and CSS web development skills.
 ## Screenshots
-![Home Page](homepage.png)
+![Home Page](hompage.png)
 ![QR Section](QR.png)
