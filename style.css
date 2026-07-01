@@ -1,0 +1,360 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/*Body*/
+body{
+    margin: 0px;
+    background-color: rgb(14, 14, 84);
+    color: white;
+}
+
+/*header*/
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0F172A;
+    border: 5px solid gold;
+    border-radius: 8px;
+    padding: 20px 50px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title img{
+    width: 45px;
+    height: auto;
+}
+.title h1{
+    color:white;
+    font-size: 35px;
+}
+
+/*Chapters title*/
+h2{
+    font-size: 40px;
+    text-align: center;
+    background-color: #0F172A;
+    border: 2px solid gold;
+    border-radius: 15px;
+    width: fit-content;
+    margin: auto;
+    padding: 20px 50px;
+}
+h2:hover{
+    box-shadow: 0 0 20px rgba(255, 209, 102, 0.6);
+}
+
+/*nav*/
+.nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:40px 0;
+}
+/*a*/
+nav a{
+    text-decoration:none;
+    background-color:#0F172A;
+    color:white;
+    font-size: 18px;
+    border:2px solid gold;
+    border-radius:12px;
+    padding:15px 25px;
+    transition:.3s;
+}
+nav a:hover{
+    background-color: gold;
+    color: #0F172A;
+}
+
+/* main topic titles*/
+.main-topic{
+    text-align: center;
+    color: white;
+    background-color: #0F172A;
+    border: 2px solid gold;
+    border-radius: 15px;
+    width: fit-content;
+    margin: auto;
+    padding: 15px 25px;
+    font-size: 32px;
+}
+.main-topic:hover{
+    box-shadow: 0 0 20px rgba(255, 209, 102, 0.6);
+}
+
+/*topic titles*/
+.topic{
+    text-align: center;
+    color: gold;
+    font-size: 28px;
+}
+
+/*head titles*/
+.head{
+    text-align: center;
+    color: gold;
+    font-size: 26px;
+}
+
+/*sub heads*/
+h4{
+    color: gold;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+/*paragraphs*/
+p{
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*links (visit)*/
+li a{
+    color: gold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*lists*/
+li{
+    font-size: 18px;
+}
+
+/*equation*/
+.eq{
+    text-align: center;
+    font-size: 19px;
+}
+
+/*Images*/
+.chapter::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*figures*/
+section::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.figure{
+    float: right;
+    width: 350px;
+    margin: 0 0 20px 25px;
+    padding: 10px;
+    background-color: #0F172A;
+    border: 2px solid gold;
+    border-radius: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.figure img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+/*figure caption*/
+.figure figcaption{
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 10px;
+}
+/*methods figures*/
+.method{
+    float: right;
+    width: 180px;
+    margin: 0 0 15px 20px;
+    text-align: center;
+    padding: 7px;
+    background-color: #0F172A;
+    border: 2px solid gold;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.method img{
+    width: 100%;
+    border-radius: 4px;
+    display: block;
+}
+/*methods caption*/
+.method figcaption{
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+}
+ol li{
+    margin-bottom: 30px;
+}
+
+ol::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*results*/
+/*negative*/
+.negative{
+    text-align:center;
+    background-color: #0F172A;
+    border: 2px solid gold;
+    border-radius: 15px;
+    margin:auto;
+    width: 350px;
+}
+.negative img{
+    width: 100%;
+    border-radius: 10px;
+}
+.negative:hover{
+    box-shadow: 0 0 20px rgba(255,215,0,0.45);
+}
+.negative figcaption{
+    margin-top: 7px;
+    font-style: italic;
+}
+/*positive*/
+.result{
+    display: flex;
+    gap: 35px;
+    margin: 40px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.result-f{
+    background-color:#0F172A;
+    border: 2px solid gold;
+    border-radius: 15px;
+    padding: 15px;
+    width: 350px;
+    text-align: center;
+    transition: .3s;
+}
+.result-f img{
+    width: 100%;
+    border-radius: 10px;
+}
+.result-f figcaption{
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 12px;
+}
+.result-f:hover{
+    box-shadow: 0 0 20px rgba(255,215,0,0.45);
+    transform: translateY(-5px);
+}
+
+/*table*/
+.materials{
+    width: 100%;
+    overflow-x: auto;
+    margin: 40px 0px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #0F172A;
+    border: 3px solid gold;
+    border-radius: 13px;
+    overflow: hidden;
+}
+th{
+    background-color: gold;
+    color: #0F172A;
+    font-size: 20px;
+    padding: 15px;
+}
+
+td{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid rgba(255,215,0,.35);
+}
+tbody tr:hover{
+    background-color: rgba(255,215,0,.15);
+    transition: 0.3s;
+}
+/*materials image in the table*/
+.table-img{
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid gold;
+  display: block;
+  margin: auto;
+  transition: o.3s;  
+}
+.table-img:hover{
+    box-shadow: 0 0 12px rgba(255, 209, 102, 0.6);
+    transform: scale(1.1);
+}
+
+/*test plan subheads*/
+.test{
+    color: gold;
+}
+
+/*top btn*/
+.top{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 75px;
+    height: 40px;
+    background-color: #0F172A;
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    z-index: 100;
+}
+.top:hover{
+    background-color: gold;
+    color: #0F172A; 
+    box-shadow: 0 0 15px rgba(255,209,102,0.6);
+    transform: scale(1.1);
+}
+
+/*footer*/
+footer{
+    background-color: gold;
+    border-top: 3px solid #0F172A;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+/*h3 in footer*/
+footer h3{
+    color: #0F172A;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*p footer*/
+footer p{
+    color: #0F172A;
+    font-size: 18px;
+    margin: 8px 0px;
+    text-align: center;
+}
+/*finishhhhhhhhh*/
