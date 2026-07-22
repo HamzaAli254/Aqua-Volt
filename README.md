@@ -51,7 +51,6 @@ GitHub Repository: https://github.com/HamzaAli254/Aqua-Volt
 •	Add a light mode 
 •	Add multilingual support
 
-This project was created for the #beest program to showcase our capstone project and demonstrate our HTML and CSS web development skills.
 ## Screenshots
 ![Home Page](hompage.png)
 ![QR Section](QR.png)
