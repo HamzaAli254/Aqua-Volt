@@ -4,17 +4,17 @@ This website explains a micro-hydroelectric project of a Pelton turbine. It pres
 Moreover, we got the solution, which is a Pelton turbine. To know how we built the prototype of the project, the materials used were addressed in a table, and the website explains the methods and how we achieved the design requirements that were set by having a test plan and collecting the results.
 Furthermore, this website helps anyone to know more about the Pelton turbine through the analysis, and how they can start searching about it by getting many references in the last part of the body.
 
-#The structure of the website
+# The structure of the website
 •	HTML
 •	CSS
 •	Some figures
 
-#How to use the website
+# How to use the website
 1.	Open the website. 
 2.	Navigate using the menu. 
 3.	Explore each section to learn about the project.
 
-#Website Sections:
+# Website Sections:
 1.About
 2.Chapter 1
         •	Grand Challenges
@@ -40,11 +40,11 @@ Furthermore, this website helps anyone to know more about the Pelton turbine thr
         •	Literature Cited
 6.Contact Section
 
-#Links
+# Links
 Demo: https://hamzaali254.github.io/Aqua-Volt/
 GitHub Repository: https://github.com/HamzaAli254/Aqua-Volt
 
-#Future Improvements
+# Future Improvements
 •	Add JavaScript animations 
 •	Improve mobile responsiveness 
 •	Include interactive simulations 
